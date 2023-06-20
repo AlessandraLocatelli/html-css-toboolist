@@ -1,60 +1,132 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.div_header
-{
-width: 100%;
-height: 50px;
-background-color: white;
+.div_header {
+    width: 100%;
+    height: 50px;
+    background-color: white;
 }
 
-#logo
-{
-width: 10%;
-height: 30px;
-margin-top: 10px;
-margin-left: 10px;
+#logo {
+    width: 10%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
-body
-{
-background-color: rgba(152, 37, 37, 0.847);
+body {
+    background-color: rgba(152, 37, 37, 0.847);
 
 }
 
-.div_main
-{
-background-color: white;
-width: 40%;
-height: 430px;
-margin:auto; 
-margin-top:50px;
+.div_main {
+    background-color: white;
+    width: 40%;
+    height: 430px;
+    margin: auto;
+    margin-top: 50px;
 }
 
-#add_task
-{
-background-color: rgb(0, 174, 255);
-border: 1px solid black;
-border-width: 1px 1px;
-border-radius: 5%;
-margin-left: 10px;
+#add_task {
+    background-color: rgb(0, 174, 255);
+    border: 1px solid black;
+    border-width: 1px 1px;
+    border-radius: 5%;
+    margin-left: 10px;
 
-
-}
-#add_section
-{
-background-color: white;
-border: 1px solid black;
-border-width: 1px 1px;
-border-radius: 5%;
-margin-left: 12px;
 
 }
 
-hr{
-color: rgba(255, 255, 255, 0.723);
-margin-top: 5px;
+#add_section {
+    background-color: white;
+    border: 1px solid black;
+    border-width: 1px 1px;
+    border-radius: 5%;
+    margin-left: 12px;
+
+}
+
+hr {
+    color: rgba(255, 255, 255, 0.723);
+    margin-top: 5px;
+}
+
+.color_cross {
+
+    color: red;
+
+}
+
+.color_task {
+
+    color: green;
+
+}
+
+.editorial {
+    background-color: rgb(18, 169, 220);
+    color: white;
+    font-size: 11px;
+    border: 2px solid rgb(18, 169, 220);
+    border-width: 2px 2px;
+    border-radius: 35%;
+
+}
+
+#q1 {
+    background-color: rgb(152, 69, 215);
+    color: white;
+    font-size: 11px;
+    border: 2px solid rgb(152, 69, 215);
+    border-width: 2px 2px;
+    border-radius: 35%;
+
+}
+
+#recruiting {
+    background-color: aquamarine; 
+    color: white;
+    font-size: 11px;
+    border: 2px solid aquamarine; 
+    border-width: 2px 2px;
+    border-radius: 35%;
+}
+
+#mobile {
+    background-color: rgb(233, 137, 48);
+    color: white;
+    font-size: 11px;
+    border: 2px solid rgb(233, 137, 48);
+    border-width: 2px 2px;
+    border-radius: 35%;
+
+}
+
+#website {
+    background-color: rgb(211, 48, 48);
+    color: white;
+    font-size: 11px;
+    border: 2px solid rgb(211, 48, 48);
+    border-width: 2px 2px;
+    border-radius: 35%;
+
+}
+
+#sales {
+    background-color: rgb(18, 186, 18);
+    color: white;
+    font-size: 11px;
+    border: 2px solid rgb(18, 186, 18);
+    border-width: 2px 2px;
+    border-radius: 35%;
+
+}
+
+p {
+
+    font-size: 15px;
+
 }
